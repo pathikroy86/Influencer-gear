@@ -1,0 +1,168 @@
+:root {
+    --font: 'Poppins', sans-serif;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-bar {
+    display: none;
+}
+
+.cart-icon {
+    display: none;
+}
+
+.header-container>p {
+    font-family: var(--font);
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.menu-right {
+    font-family: var(--font);
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.menu-right span {
+    margin-right: 30px;
+}
+
+.fa-magnifying-glass {
+    margin-right: 30px;
+}
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.booking-section {
+    font-family: var(--font);
+    font-size: 1.5em;
+    color: #3A3A3A;
+}
+
+.booking-section button {
+    background-color: #E02C6D;
+    color: white;
+    font-family: var(--font);
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 41px;
+}
+
+.banner-image {
+    display: flex;
+    justify-content: end;
+}
+
+.sponsor-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #dce2e7fa;
+    border-left: none;
+    border-right: none;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.collection-container {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.collection-container>h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: var(--font);
+}
+
+.collection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.items {
+    padding: 10px;
+    box-shadow: 0px 0px 10px lightgray;
+    border-radius: 5px;
+    font-family: var(--font);
+}
+
+.items img {
+    width: 100%;
+}
+
+.fa-solid {
+    color: rgb(238, 162, 21);
+}
+
+.see-more {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    color: #E02C6D;
+    font-family: var(--font);
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+
+.fa-arrow-right {
+    color: #E02C6D;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.joining-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.join-content {
+    font-family: var(--font);
+}
+
+.join-content button {
+    background-color: #E02C6D;
+    color: white;
+    border: none;
+    padding: 7px 10px 9px 10px;
+    font-weight: 700;
+}
+
+footer {
+    height: 200px;
+    background-color: #0A0826;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    color: white;
+}
+
+.fa-brands {
+    font-size: 2em;
+    margin-right: 20px;
+}

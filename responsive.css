@@ -1,0 +1,48 @@
+@media screen and (max-width:576px) {
+    body {
+        width: 100%;
+    }
+
+    .menu-right {
+        display: none;
+    }
+
+    .menu-bar {
+        display: block;
+        font-size: 1.5em;
+        margin-right: 25%;
+    }
+
+    .cart-icon {
+        display: block;
+    }
+
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .banner-container {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .sponsor-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .collection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .joining-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+}
